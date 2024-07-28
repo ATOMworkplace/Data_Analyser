@@ -70,6 +70,26 @@ npm start
 <p>Below are some screenshots and a brief demo of the Data Analyser application:</p>
 
 
+
+https://github.com/user-attachments/assets/9fd67c84-6ab2-4249-a831-5735a68061b4
+
+
+
+![image](https://github.com/user-attachments/assets/2991e1fd-0025-40f9-a151-a0698bdd09cb)
+
+![image](https://github.com/user-attachments/assets/5742905b-83eb-464f-ae6c-470538c0ef12)
+
+![image](https://github.com/user-attachments/assets/ec39e459-a833-4aa9-add4-f6d8f07df414)
+
+![image](https://github.com/user-attachments/assets/7720d92e-4499-4afa-8029-712334085c57)
+
+![image](https://github.com/user-attachments/assets/bb3eaf03-595d-421e-bd3c-1bf23d00df28)
+
+![image](https://github.com/user-attachments/assets/b1b9c77d-63a5-4b17-84b3-98ec3c1bc129)
+
+
+
+
 <h2 id="how-it-works">How It Works</h2>
 <h3>Backend</h3>
 <p>The backend is built using Node.js and Express.js. It fetches transaction data from an external API, processes it, and provides several endpoints:</p>
