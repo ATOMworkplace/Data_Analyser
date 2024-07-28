@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Header from './header';
 import StatsTable from './stats_table';
-import BarGraph from './BarGraph'; // Import BarGraph component
-import PieChart from './PieChart'; // Import PieChart component
+import BarGraph from './BarGraph';  
+import PieChart from './PieChart';  
 
 const Table1 = () => {
   const [transactions, setTransactions] = useState([]);
@@ -13,8 +13,8 @@ const Table1 = () => {
   const [month, setMonth] = useState('March');
   const [search, setSearch] = useState('');
   const [sortColumn, setSortColumn] = useState('');
-  const [sortOrder, setSortOrder] = useState('asc'); // 'asc' or 'desc'
-  const [expandedTransactions, setExpandedTransactions] = useState({}); // State to manage expanded content for each transaction
+  const [sortOrder, setSortOrder] = useState('asc');  
+  const [expandedTransactions, setExpandedTransactions] = useState({}); 
 
   useEffect(() => {
     fetchTransactions(page, perPage, month, search, sortColumn, sortOrder);
@@ -54,12 +54,12 @@ const Table1 = () => {
 
   const handleMonthChange = (event) => {
     setMonth(event.target.value);
-    setPage(1); // Reset to first page when month changes
+    setPage(1);  
   };
 
   const handleSearchChange = (event) => {
     setSearch(event.target.value);
-    setPage(1); // Reset to first page when search changes
+    setPage(1);  
   };
 
   const handleSort = (column) => {
@@ -158,7 +158,7 @@ const Table1 = () => {
       </div>
       <StatsTable month={month} />
       <BarGraph month={month} />
-      <PieChart selectedMonth={month} /> {/* Add PieChart component */}
+      <PieChart selectedMonth={month} />  
     </div>
   );
 };
