@@ -1,6 +1,6 @@
 <h1>Data Analyser</h1>
 <h2 id="project-overview">Project Overview</h2>
-<p>Data Analyser is a comprehensive project designed to analyze product transaction data. It fetches transaction data from an external API, processes it, and provides various statistics, visualizations, and search functionalities. The project includes features such as listing transactions, filtering by month and search query, pagination, and generating charts (bar and pie) for visual representation of data.</p>
+<p>Data Analyser is a comprehensive project designed to analyze product transaction data. It fetches transaction data from an external API, processes it, and provides various statistics, visualizations and search functionalities. The project includes features such as listing transactions, filtering by month and search query, pagination, and generating charts (bar and pie) for visual representation of data.</p>
 
 <h2 id="tech-stack">Tech Stack</h2>
 <h3>Frontend</h3>
